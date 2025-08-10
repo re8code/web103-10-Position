@@ -1,0 +1,18 @@
+:root {
+  --color-a: pink;
+  --color-b: orange;
+  --color-c: skyblue;
+}
+
+.a {
+  width: 200px; height: 100px;
+  background-color: var(--color-a);
+}
+.b {
+  width: 250px; height: 150px;
+  background-color: var(--color-b);
+}
+.c {
+  width: 300px; height: 200px;
+  background-color: var(--color-c);
+}
