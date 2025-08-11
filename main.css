@@ -1,6 +1,17 @@
-div {
-  width: 100px; height: 100px;
-  background-color: #bbb;
-  box-sizing: border-box;
-  border: 1px dotted #666;
+div {width: 100px; height: 100px;}
+.a {
+  background-color: pink;
+  position: relative; left: 20px;
+}
+.b {
+  background-color: orange;
+  position: relative; right: 20px;
+}
+.c {
+  background-color: dodgerblue;
+  position: relative; left: 10px; top: 20px;
+}
+.d {
+  background-color: coral;
+  position: relative; left: 20px; bottom: 20px;
 }
