@@ -1,17 +1,25 @@
-div {width: 100px; height: 100px;}
-.a {
-  background-color: pink;
-  position: relative; left: 20px;
-}
-.b {
-  background-color: orange;
-  position: relative; right: 20px;
-}
-.c {
-  background-color: dodgerblue;
-  position: relative; left: 10px; top: 20px;
-}
-.d {
+div.box {
+  width: 100px; height: 100px;
   background-color: coral;
-  position: relative; left: 20px; bottom: 20px;
+  border: 1px solid #bbb;
+}
+.a
+{position: relative; left:  20px;}
+.b
+{position: relative; right: 20px;}
+.c
+{position: relative; left: 10px; top: 20px;}
+.d
+{position: relative; left: 20px; bottom: 20px;}
+
+
+
+
+
+
+
+
+.base {
+  width: 500px; height: 600px;
+  border: 1px solid #000;
 }
