@@ -1,8 +1,19 @@
-div.box {
-  width: 100px; height: 100px;
-  background-color: coral;
-  border: 1px solid #bbb;
+.a {
+  width: 200px; height: 50px;
+  background-color: pink;
+  /* position: relative; top: 10px; */
 }
+.b {
+  width: 250px; height: 100px;
+  background-color: orange;
+  /* position: relative; left: 10px; */
+}
+.c {
+  width: 300px; height: 150px;
+  background-color: skyblue;
+  /* position: relative; top: 100px; */
+}
+.fl {float: left;}
 
 
 
