@@ -1,21 +1,17 @@
-.a {
-  width: 200px; height: 30px;
-  background-color: orange;
-  /* position: relative; top: 10px; */
+body {margin: 0;}
+.box {
+  margin: 20px; overflow: hidden;
+  background-color: #ddd;
+  border: 1px dotted #000; box-sizing: border-box;
 }
-.b {
-  width: 250px; height: 60px;
-  background-color: skyblue;
-  /* position: relative; left: 10px; */
+.a {width: 200px; height: 200px;}
+.b {width: 160px; height: 160px;}
+.c {width: 120px; height: 120px;}
+.point {
+  width: 20px; height: 20px; background-color: coral;
+  position: absolute; top: 0; left: 0;
 }
-.fl {float: left;}
-.pos {
-  position: relative;
-  top: 10px; left: 10px;
-}
-
-
-
+.rel {position: relative;}
 
 
 
