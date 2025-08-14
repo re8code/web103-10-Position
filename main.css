@@ -2,6 +2,7 @@ div.box {
   width: 100px; height: 100px;
   background-color: coral;
   border: 1px solid #bbb;
+  margin-left: 20px;
 }
 .a
 {position: relative; left:  20px;}
