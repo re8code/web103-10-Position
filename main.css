@@ -1,19 +1,18 @@
-.box {
-  margin: 20px; overflow: hidden;
-  background-color: #ddd;
-  border: 1px dotted #000; box-sizing: border-box;
-}
-.a {width: 200px; height: 200px;}
-.b {width: 160px; height: 160px;}
-.c {background-color: pink;}
-.d {background-color: skyblue;}
+.box {width: 100px; height: 100px;}
+.rel {position: relative;}
+.abs {position: absolute;}
 
-.inner {width: 100px; height: 100px;}
-.rel   {position: relative;}
-.abs   {position: absolute; bottom: 0; right: 0;}
-
-
-
+.a {background-color: #eee;}
+.b {background-color: #ccc;
+    top: 0px;   left: 100px;}
+.c {background-color: #aaa;
+    top: 0px;   left: 100px;}
+.d {background-color: #ddd;
+    top: 100px; left: 0px;}
+.e {background-color: #bbb;
+    top: 0px;   left: 100px;}
+.f {background-color: #999;
+    top: 100px; left: 200px;}
 
 
 
