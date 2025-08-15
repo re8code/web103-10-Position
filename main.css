@@ -1,18 +1,16 @@
-.a {
-  width: 200px; height: 50px;
-  background-color: pink;
+.box {
+  margin: 20px; overflow: hidden;
+  background-color: #ddd;
+  border: 1px dotted #000; box-sizing: border-box;
 }
-.b {
-  width: 250px; height: 100px;
-  background-color: orange;
-}
-.c {
-  width: 300px; height: 150px;
-  background-color: skyblue;
-}
-.rel {
-  position: relative;
-}
+.a {width: 200px; height: 200px;}
+.b {width: 160px; height: 160px;}
+.c {background-color: pink;}
+.d {background-color: skyblue;}
+
+.inner {width: 100px; height: 100px;}
+.rel   {position: relative;}
+.abs   {position: absolute; bottom: 0; right: 0;}
 
 
 
