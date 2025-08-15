@@ -1,20 +1,13 @@
+body {margin: 0;}
 .box {width: 100px; height: 100px;}
-.rel {position: relative;}
-.abs {position: absolute;}
-
 .a {background-color: #eee;}
-.b {background-color: #ccc;
-    top: 0px;   left: 100px;}
-.c {background-color: #aaa;
-    top: 0px;   left: 100px;}
-.d {background-color: #ddd;
-    top: 100px; left: 0px;}
-.e {background-color: #bbb;
-    top: 0px;   left: 100px;}
-.f {background-color: #999;
-    top: 100px; left: 200px;}
+.b {background-color: #ccc;}
+.c {background-color: #aaa;}
+.d {background-color: #999;}
+.e {background-color: #888;}
 
-
+.init {position: absolute; right: 0px;}
+.abs  {position: absolute; right: 100px;}
 
 
 
