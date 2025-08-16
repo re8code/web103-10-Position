@@ -1,16 +1,27 @@
-div {width: 200px; height: 200px;}
-.a {
-  background-color: pink;
-  position: absolute; top: 0;
-}
-.b {
-  background-color: orange;
-  position: relative; left: 200px;
-}
-.c {
-  background-color: skyblue;
-  position: fixed; top: 8px; right: 0;
-}
+div {width: 400px; height: 100px;}
+.a {background-color: pink;}
+.b {background-color: skyblue;
+position: sticky; top: 100px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* for codepen.io */
 body {
-  position: relative; height: 3000px;
+  width: 500px; height: 1000px;
+  background-color: #fff;
+  margin: 8px auto;
+  position: relative;
+}
+html {
+  background-color: #ddd;
 }
