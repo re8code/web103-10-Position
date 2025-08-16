@@ -1,16 +1,15 @@
-.d {
+div {position: relative;}
+.a {
   width: 300px; height: 200px;
   background-color: pink;
 }
-.c {
+.b {
   width: 250px; height: 160px;
   background-color: orange;
+  bottom: 200px;
 }
-.b {
+.c {
   width: 200px; height: 120px;
   background-color: skyblue;
-}
-.a {
-  width: 150px; height: 80px;
-  background-color: coral;
+  bottom: 360px;
 }
