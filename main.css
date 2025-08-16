@@ -5,8 +5,11 @@
 .b {
   width: 250px; height: 160px;
   background-color: orange;
+  float: left;
 }
 .c {
   width: 200px; height: 120px;
   background-color: skyblue;
+  position: absolute; top: 0;
 }
+body {position: relative;}
