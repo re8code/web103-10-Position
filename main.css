@@ -1,16 +1,16 @@
+div {width: 200px; height: 200px;}
 .a {
-  width: 300px; height: 200px;
   background-color: pink;
-  position: relative; top: 0;
-}
-.b {
-  width: 250px; height: 160px;
-  background-color: orange;
   position: absolute; top: 0;
 }
-.c {
-  width: 200px; height: 120px;
-  background-color: skyblue;
-  position: fixed; top: 8px;
+.b {
+  background-color: orange;
+  position: relative; left: 200px;
 }
-body {position: relative;}
+.c {
+  background-color: skyblue;
+  position: fixed; top: 8px; right: 0;
+}
+body {
+  position: relative; height: 3000px;
+}
