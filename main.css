@@ -1,17 +1,4 @@
-body {margin: 0;}
-.box {width: 100px; height: 100px;}
-.a {background-color: #eee;}
-.b {background-color: #ccc;}
-.c {background-color: #aaa;}
-.d {background-color: #999;}
-.e {background-color: #888;}
-
-.init {position: absolute; right: 0px;}
-.abs  {position: absolute; right: 100px;}
-
-
-
-.base {
-  width: 500px; height: 600px;
+html {
+  background-color: orange;
   border: 1px solid #000;
 }
