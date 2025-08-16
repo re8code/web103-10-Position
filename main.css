@@ -1,4 +1,12 @@
+html {
+  background-color: pink;
+  border: 1px dashed #000;
+}
 body {
   background-color: orange;
   border: 1px solid #000;
+}
+div {
+  width: 100px; height: 100px;
+  background-color: lightgreen;
 }
