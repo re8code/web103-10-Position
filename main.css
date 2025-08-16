@@ -1,15 +1,16 @@
 .a {
   width: 300px; height: 200px;
   background-color: pink;
+  position: relative; top: 0;
 }
 .b {
   width: 250px; height: 160px;
   background-color: orange;
-  float: left;
+  position: absolute; top: 0;
 }
 .c {
   width: 200px; height: 120px;
   background-color: skyblue;
-  position: absolute; top: 0;
+  position: fixed; top: 8px;
 }
 body {position: relative;}
