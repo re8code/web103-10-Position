@@ -1,7 +1,16 @@
-div {width: 100px; height: 100px;}
-
-.a {background-color: #ddd;}
-.b {background-color: #ccc;}
-.c {background-color: #bbb;}
-.d {background-color: #aaa;}
-.e {background-color: #999;}
+.a {
+  width: 300px; height: 200px;
+  background-color: pink;
+}
+.b {
+  width: 250px; height: 160px;
+  background-color: orange;
+}
+.c {
+  width: 200px; height: 120px;
+  background-color: skyblue;
+}
+.d {
+  width: 150px; height: 80px;
+  background-color: coral;
+}
