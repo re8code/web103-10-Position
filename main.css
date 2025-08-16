@@ -1,12 +1,7 @@
-html {
-  background-color: pink;
-  border: 1px dashed #000;
-}
-body {
-  background-color: orange;
-  border: 1px solid #000;
-}
-div {
-  width: 100px; height: 100px;
-  background-color: lightgreen;
-}
+div {width: 100px; height: 100px;}
+
+.a {background-color: #ddd;}
+.b {background-color: #ccc;}
+.c {background-color: #bbb;}
+.d {background-color: #aaa;}
+.e {background-color: #999;}
